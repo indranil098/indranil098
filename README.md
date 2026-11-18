@@ -23,7 +23,7 @@ I build practical software and learn by shipping it — from data model to last 
 
 Most of my time goes into AI-powered applications, developer tooling and full-stack web products. I care more about a thing working well in someone's hands than about the stack it's written in.
 
-- currently building **Movsee**, **SuperMynd AI** and **HyperGym**
+- building my startup **SuperMynd AI** along with **Movsee** and **HyperGym**
 - exploring **LLM tooling**, **OSINT research tooling** and real-time visual experiments
 - comfortable across TypeScript, Python, React Native and Cloudflare
 
@@ -31,10 +31,10 @@ Most of my time goes into AI-powered applications, developer tooling and full-st
 
 ### now building
 
-| project | what it is | live |
+| project | what it is | link |
 | --- | --- | --- |
-| **[Movsee](https://github.com/indranil098/Movsee)** | a home for movies and TV — discovery, search, cast, multi-server playback that remembers where you left off | [movsee](https://movsee.indradev.workers.dev) |
-| **[SuperMynd AI](https://github.com/indranil098/supermynd-ai)** | white-label AI assessment infrastructure for coaching institutes — Bengali-first, syllabus-aligned | [supermynd.in](https://supermynd.in) |
+| **[SuperMynd AI](https://supermynd.in)** — my startup | white-label AI assessment infrastructure for coaching institutes — Bengali-first, syllabus-aligned, with batch analytics | [supermynd.in](https://supermynd.in) |
+| **[Movsee](https://movsee.indradev.workers.dev)** | a home for movies and TV — discovery, search, cast, multi-server playback that remembers where you left off | [movsee](https://movsee.indradev.workers.dev) |
 | **[HyperGym](https://github.com/indranil098/HyperGym)** | say what you trained, an LLM coach drafts the log — React Native, no backend, on-device | [apk](https://github.com/indranil098/HyperGym/releases/latest) |
 
 ---
@@ -44,11 +44,10 @@ Most of my time goes into AI-powered applications, developer tooling and full-st
 | | |
 | --- | --- |
 | **[ASCII Vision Pro](https://github.com/indranil098/ASCII-Vision-Pro-)** | real-time ASCII camera for the web — high-fidelity character mapping, gain/contrast/density controls, CRT colour filters, 4K export |
-| **[OSINT Toolkit](https://github.com/indranil098/osint-toolkit)** | private, browser-only OSINT workbench — recon modules, correlation, evidence trails and reports with no backend and no logs |
 | **[Universal LLM Tokenizer](https://github.com/indranil098/universal-llm-tokenizer)** | tokenization playground and developer tooling for working with LLM inputs |
 | **[AI Book Maker](https://github.com/indranil098/Ai-book-maker)** | generating structured books and related content with AI pipelines |
 
-<sub>more experiments and half-finished ideas in the [repository list](https://github.com/indranil098?tab=repositories).</sub>
+<sub>plus a few private builds — an OSINT research workbench and other experiments — and more ideas in the [repository list](https://github.com/indranil098?tab=repositories).</sub>
 
 ---
 
