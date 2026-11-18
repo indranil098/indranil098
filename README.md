@@ -7,7 +7,7 @@
 
 ### Indranil Chatterjee
 
-**B.Tech CSE student · builder · shipping in public**
+**B.Tech CSE student · founder, SuperMynd AI · shipping in public**
 
 `AI` · `developer tools` · `web` · `education`
 
@@ -19,11 +19,11 @@
 
 ### about
 
-I build practical software and learn by shipping it — from data model to last pixel.
+I build practical software and learn by shipping it - from data model to last pixel.
 
-Most of my time goes into AI-powered applications, developer tooling and full-stack web products. I care more about a thing working well in someone's hands than about the stack it's written in.
+Most of my time goes into **SuperMynd AI**, my startup building AI assessment infrastructure for coaching institutes, alongside AI-powered apps, developer tooling and full-stack web products.
 
-- building my startup **SuperMynd AI** along with **Movsee** and **HyperGym**
+- building **SuperMynd AI**, **Movsee** and **HyperGym**
 - exploring **LLM tooling**, **OSINT research tooling** and real-time visual experiments
 - comfortable across TypeScript, Python, React Native and Cloudflare
 
@@ -41,32 +41,62 @@ Most of my time goes into AI-powered applications, developer tooling and full-st
 
 ### selected work
 
-| | |
-| --- | --- |
-| **[ASCII Vision Pro](https://github.com/indranil098/ASCII-Vision-Pro-)** | real-time ASCII camera for the web — high-fidelity character mapping, gain/contrast/density controls, CRT colour filters, 4K export |
-| **[Universal LLM Tokenizer](https://github.com/indranil098/universal-llm-tokenizer)** | tokenization playground and developer tooling for working with LLM inputs |
-| **[AI Book Maker](https://github.com/indranil098/Ai-book-maker)** | generating structured books and related content with AI pipelines |
+<p align="center">
+  <a href="https://github.com/indranil098/HyperGym">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=HyperGym&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&icon_color=5EEAD4&border_radius=14&show_owner=false" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=HyperGym&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&icon_color=0F766E&border_radius=14&show_owner=false" alt="HyperGym repository" />
+    </picture>
+  </a>
+  <br/>
+  <a href="https://github.com/indranil098/ASCII-Vision-Pro-">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=ASCII-Vision-Pro-&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&icon_color=5EEAD4&border_radius=14" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=ASCII-Vision-Pro-&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&icon_color=0F766E&border_radius=14" alt="ASCII Vision Pro repository" />
+    </picture>
+  </a>
+  <br/>
+  <a href="https://github.com/indranil098/universal-llm-tokenizer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=universal-llm-tokenizer&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&icon_color=5EEAD4&border_radius=14" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=universal-llm-tokenizer&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&icon_color=0F766E&border_radius=14" alt="Universal LLM Tokenizer repository" />
+    </picture>
+  </a>
+  <br/>
+  <a href="https://github.com/indranil098/Ai-book-maker">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=Ai-book-maker&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&icon_color=5EEAD4&border_radius=14" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=indranil098&repo=Ai-book-maker&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&icon_color=0F766E&border_radius=14" alt="AI Book Maker repository" />
+    </picture>
+  </a>
+</p>
 
-<sub>plus a few private builds — an OSINT research workbench and other experiments — and more ideas in the [repository list](https://github.com/indranil098?tab=repositories).</sub>
+<sub>plus a few private builds — an OSINT research workbench and other experiments — in the [repository list](https://github.com/indranil098?tab=repositories).</sub>
+
+---
+
+### numbers
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=indranil098&show_icons=true&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&icon_color=5EEAD4&border_radius=14" />
+    <img src="https://github-readme-stats.vercel.app/api?username=indranil098&show_icons=true&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&icon_color=0F766E&border_radius=14" alt="Indranil Chatterjee's GitHub stats" width="49%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=indranil098&layout=compact&hide_border=true&bg_color=0D1524&title_color=5EEAD4&text_color=94A3B8&border_radius=14&langs_count=8" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indranil098&layout=compact&hide_border=true&bg_color=F6FBFA&title_color=0F766E&text_color=475569&border_radius=14&langs_count=8" alt="Most used languages" width="49%" />
+  </picture>
+</p>
 
 ---
 
 ### toolkit
 
-<p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img alt="React Native" src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-  <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=typescript,javascript,react,nextjs,nodejs,python,c,tailwind,firebase,cloudflare,vite,git,github&perline=7&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=typescript,javascript,react,nextjs,nodejs,python,c,tailwind,firebase,cloudflare,vite,git,github&perline=7&theme=light" alt="Technology stack icons" />
+  </picture>
 </p>
 
 ---
@@ -78,11 +108,18 @@ Most of my time goes into AI-powered applications, developer tooling and full-st
   <img src="https://raw.githubusercontent.com/indranil098/indranil098/output/github-contribution-grid-snake.svg" alt="A snake eating across the contribution graph" width="100%" />
 </picture>
 
-<code>commit → build → experiment → ship → repeat</code>
-
 </div>
 
 ---
+
+```bash
+$ whoami
+indranil — cs student, founder @ supermynd ai
+$ cat focus.txt
+ai tools · developer tooling · web products · edtech
+$ uptime
+always building — currently: supermynd ai · movsee · hypergym
+```
 
 <div align="center">
 
