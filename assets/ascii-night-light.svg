@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="An ASCII night scene: a moon above still water, a field of stars and layered hills">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFFFF"/>
+      <stop offset="0.65" stop-color="#EEF7F5"/>
+      <stop offset="1" stop-color="#FDFFFF"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7AC8BE" stop-opacity="0.22"/>
+      <stop offset="0.45" stop-color="#7AC8BE" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#7AC8BE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A6CEC6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A6CEC6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#A6CEC6" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text {
+        font-family: 'DejaVu Sans Mono', Menlo, Consolas, 'Courier New', monospace;
+        font-size: 12.5px;
+        white-space: pre;
+      }
+      .k-star.t-faint { fill: #B7C9D2; }
+      .k-star.t-dim { fill: #93AAB7; }
+      .k-star.t-mid { fill: #68858F; }
+      .k-star.t-bright { fill: #33505C; }
+      .k-moon.t-core { fill: #0E2E38; }
+      .k-moon.t-mid { fill: #1B4550; }
+      .k-moon.t-edge { fill: #5D8B93; }
+      .k-far.t-edge { fill: #5E9E96; }
+      .k-far.t-body { fill: #A8CFC8; }
+      .k-far.t-mid { fill: #C2DED8; }
+      .k-far.t-low { fill: #D8EAE5; }
+      .k-near.t-edge { fill: #0F6F67; }
+      .k-near.t-body { fill: #8FBEB6; }
+      .k-near.t-mid { fill: #ADD3CB; }
+      .k-near.t-low { fill: #C8E2DC; }
+      .k-horizon.t-line { fill: #A7C4C6; }
+      .k-water.t-wave { fill: #79AEBB; }
+      .k-water.t-line { fill: #9AC2CB; }
+      .k-water.t-faint { fill: #C0D8DD; }
+      .k-glint.t-bright { fill: #0E7490; }
+      .t-edge { } 
+      .k-star { animation: twinkle 9s ease-in-out infinite; }
+      .k-star.t-bright { animation-duration: 6s; }
+      .k-star.t-mid { animation-duration: 7.5s; animation-delay: -2s; }
+      .k-star.t-dim { animation-duration: 11s; animation-delay: -4s; }
+      .k-water { animation: shimmer 9s ease-in-out infinite; }
+      .k-glint { animation: shimmer 5.5s ease-in-out -1.5s infinite; }
+      .glow { animation: breathe 11s ease-in-out infinite; }
+      .label { font-size: 10px; letter-spacing: 2.7px; fill: #738A96; }
+      .labelHi { font-size: 10px; letter-spacing: 2.2px; fill: #405C68; opacity: 0.8; }
+      @keyframes twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @keyframes shimmer { 0%, 100% { opacity: 0.62; } 50% { opacity: 0.95; } }
+      @keyframes breathe { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .k-star, .k-water, .k-glint, .glow { opacity: 0.85; }
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="470" fill="url(#bg)"/>
+  <rect x="24" y="16" width="852" height="438" rx="18" fill="#F7FCFB" fill-opacity="0.72" stroke="#D6E7E3" stroke-width="1"/>
+  <rect x="24" y="16" width="852" height="1.2" fill="url(#topEdge)"/>
+
+  <circle class="glow" cx="571" cy="149" r="118" fill="url(#moonGlow)"/>
+
+  <text class="label" x="54" y="52">QUIET HOURS</text>
+  <text class="labelHi" x="846" y="52" text-anchor="end">INDRANIL098</text>
+
+  <g transform="translate(85, 84)">
+      <text class="k-star t-faint" x="114.0" y="0.0" xml:space="preserve">·</text>
+      <text class="k-star t-faint" x="304.0" y="0.0" xml:space="preserve">·</text>
+      <text class="k-star t-mid" x="357.2" y="0.0" xml:space="preserve">*</text>
+      <text class="k-star t-dim" x="638.4" y="0.0" xml:space="preserve">.</text>
+      <text class="k-star t-dim" x="30.4" y="17.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="266.0" y="17.0" xml:space="preserve">·</text>
+      <text class="k-moon t-edge" x="471.2" y="17.0" xml:space="preserve">:::::</text>
+      <text class="k-star t-dim" x="699.2" y="17.0" xml:space="preserve">.</text>
+      <text class="k-star t-mid" x="144.4" y="34.0" xml:space="preserve">*</text>
+      <text class="k-star t-dim" x="349.6" y="34.0" xml:space="preserve">.</text>
+      <text class="k-moon t-mid" x="456.0" y="34.0" xml:space="preserve">:***</text>
+      <text class="k-moon t-core" x="486.4" y="34.0" xml:space="preserve">#</text>
+      <text class="k-moon t-mid" x="494.0" y="34.0" xml:space="preserve">***:</text>
+      <text class="k-star t-dim" x="684.0" y="34.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="83.6" y="51.0" xml:space="preserve">·</text>
+      <text class="k-star t-faint" x="190.0" y="51.0" xml:space="preserve">·</text>
+      <text class="k-star t-dim" x="319.2" y="51.0" xml:space="preserve">.</text>
+      <text class="k-moon t-mid" x="448.4" y="51.0" xml:space="preserve">:*</text>
+      <text class="k-moon t-core" x="463.6" y="51.0" xml:space="preserve">###@###</text>
+      <text class="k-moon t-mid" x="516.8" y="51.0" xml:space="preserve">*:</text>
+      <text class="k-star t-dim" x="15.2" y="68.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="364.8" y="68.0" xml:space="preserve">·</text>
+      <text class="k-moon t-mid" x="448.4" y="68.0" xml:space="preserve">**</text>
+      <text class="k-moon t-core" x="463.6" y="68.0" xml:space="preserve">##@@@##</text>
+      <text class="k-moon t-mid" x="516.8" y="68.0" xml:space="preserve">**</text>
+      <text class="k-star t-faint" x="68.4" y="85.0" xml:space="preserve">·</text>
+      <text class="k-star t-bright" x="159.6" y="85.0" xml:space="preserve">+</text>
+      <text class="k-star t-dim" x="205.2" y="85.0" xml:space="preserve">.</text>
+      <text class="k-moon t-edge" x="448.4" y="85.0" xml:space="preserve">:</text>
+      <text class="k-moon t-mid" x="456.0" y="85.0" xml:space="preserve">**</text>
+      <text class="k-moon t-core" x="471.2" y="85.0" xml:space="preserve">#####</text>
+      <text class="k-moon t-mid" x="509.2" y="85.0" xml:space="preserve">**</text>
+      <text class="k-moon t-edge" x="524.4" y="85.0" xml:space="preserve">:</text>
+      <text class="k-star t-faint" x="600.4" y="85.0" xml:space="preserve">·</text>
+      <text class="k-star t-faint" x="661.2" y="85.0" xml:space="preserve">·</text>
+      <text class="k-star t-faint" x="98.8" y="102.0" xml:space="preserve">·</text>
+      <text class="k-star t-dim" x="228.0" y="102.0" xml:space="preserve">.</text>
+      <text class="k-star t-dim" x="334.4" y="102.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="410.4" y="102.0" xml:space="preserve">·</text>
+      <text class="k-far t-edge" x="418.0" y="102.0" xml:space="preserve">_</text>
+      <text class="k-moon t-edge" x="456.0" y="102.0" xml:space="preserve">:</text>
+      <text class="k-moon t-mid" x="463.6" y="102.0" xml:space="preserve">:*****:</text>
+      <text class="k-moon t-edge" x="516.8" y="102.0" xml:space="preserve">:</text>
+      <text class="k-star t-dim" x="53.2" y="119.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="174.8" y="119.0" xml:space="preserve">·</text>
+      <text class="k-far t-edge" x="266.0" y="119.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="410.4" y="119.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="425.6" y="119.0" xml:space="preserve">\</text>
+      <text class="k-star t-mid" x="714.4" y="119.0" xml:space="preserve">*</text>
+      <text class="k-far t-edge" x="91.2" y="136.0" xml:space="preserve">_</text>
+      <text class="k-star t-dim" x="129.2" y="136.0" xml:space="preserve">.</text>
+      <text class="k-star t-faint" x="220.4" y="136.0" xml:space="preserve">·</text>
+      <text class="k-far t-edge" x="258.4" y="136.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="273.6" y="136.0" xml:space="preserve">\</text>
+      <text class="k-star t-dim" x="281.2" y="136.0" xml:space="preserve">.</text>
+      <text class="k-star t-bright" x="380.0" y="136.0" xml:space="preserve">+</text>
+      <text class="k-far t-edge" x="402.8" y="136.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="577.6" y="136.0" xml:space="preserve">_</text>
+      <text class="k-star t-faint" x="630.8" y="136.0" xml:space="preserve">·</text>
+      <text class="k-star t-dim" x="45.6" y="153.0" xml:space="preserve">.</text>
+      <text class="k-far t-edge" x="83.6" y="153.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="98.8" y="153.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="250.8" y="153.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="281.2" y="153.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="395.2" y="153.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="433.2" y="153.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="501.6" y="153.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="570.0" y="153.0" xml:space="preserve">/</text>
+      <text class="k-star t-dim" x="577.6" y="153.0" xml:space="preserve">.</text>
+      <text class="k-far t-edge" x="585.2" y="153.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="722.0" y="153.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="76.0" y="170.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="182.4" y="170.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="243.2" y="170.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="288.8" y="170.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="349.6" y="170.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="380.0" y="170.0" xml:space="preserve">_/</text>
+      <text class="k-far t-edge" x="440.8" y="170.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="494.0" y="170.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="509.2" y="170.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="562.4" y="170.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="592.8" y="170.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="668.8" y="170.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="714.4" y="170.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="15.2" y="187.0" xml:space="preserve">_</text>
+      <text class="k-near t-edge" x="53.2" y="187.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="68.4" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="106.4" y="187.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="174.8" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="190.0" y="187.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="205.2" y="187.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="296.4" y="187.0" xml:space="preserve">\_</text>
+      <text class="k-far t-edge" x="342.0" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="357.2" y="187.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="364.8" y="187.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="372.4" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="448.4" y="187.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="486.4" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="516.8" y="187.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="532.0" y="187.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="554.8" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="600.4" y="187.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="661.2" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="676.4" y="187.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="699.2" y="187.0" xml:space="preserve">_</text>
+      <text class="k-far t-edge" x="706.8" y="187.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="7.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="22.8" y="204.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="45.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-body" x="53.2" y="204.0" xml:space="preserve">.</text>
+      <text class="k-near t-edge" x="60.8" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="114.0" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="167.2" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-edge" x="197.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-body" x="205.2" y="204.0" xml:space="preserve">.</text>
+      <text class="k-near t-edge" x="212.8" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="235.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="311.6" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="334.4" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-edge" x="357.2" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-body" x="364.8" y="204.0" xml:space="preserve">.</text>
+      <text class="k-near t-edge" x="372.4" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="456.0" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="478.8" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-edge" x="524.4" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-body" x="532.0" y="204.0" xml:space="preserve">.</text>
+      <text class="k-near t-edge" x="539.6" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="547.2" y="204.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="608.0" y="204.0" xml:space="preserve">\</text>
+      <text class="k-far t-edge" x="653.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-far t-edge" x="684.0" y="204.0" xml:space="preserve">\</text>
+      <text class="k-near t-edge" x="691.6" y="204.0" xml:space="preserve">/</text>
+      <text class="k-near t-body" x="699.2" y="204.0" xml:space="preserve">.</text>
+      <text class="k-near t-edge" x="706.8" y="204.0" xml:space="preserve">\</text>
+      <text class="k-horizon t-line" x="0.0" y="221.0" xml:space="preserve">────────────────────────────────────────────────────────────────────────────────────────────────</text>
+      <text class="k-water t-faint" x="45.6" y="238.0" xml:space="preserve">--------------</text>
+      <text class="k-water t-faint" x="205.2" y="238.0" xml:space="preserve">-----------</text>
+      <text class="k-water t-faint" x="326.8" y="238.0" xml:space="preserve">----------</text>
+      <text class="k-water t-faint" x="433.2" y="238.0" xml:space="preserve">-</text>
+      <text class="k-glint t-bright" x="440.8" y="238.0" xml:space="preserve">≈≈≈≈≈≈≈≈≈≈≈≈</text>
+      <text class="k-water t-faint" x="570.0" y="238.0" xml:space="preserve">-----------</text>
+      <text class="k-water t-faint" x="706.8" y="238.0" xml:space="preserve">---</text>
+      <text class="k-water t-far" x="22.8" y="255.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-water t-far" x="152.0" y="255.0" xml:space="preserve">~~~~~~~~~</text>
+      <text class="k-water t-far" x="304.0" y="255.0" xml:space="preserve">~~~~~~~~</text>
+      <text class="k-water t-far" x="418.0" y="255.0" xml:space="preserve">~~~~</text>
+      <text class="k-glint t-bright" x="448.4" y="255.0" xml:space="preserve">≈≈≈</text>
+      <text class="k-glint t-dim" x="478.8" y="255.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="494.0" y="255.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="516.8" y="255.0" xml:space="preserve">·</text>
+      <text class="k-water t-far" x="547.2" y="255.0" xml:space="preserve">~~~~~~~~~~</text>
+      <text class="k-water t-far" x="668.8" y="255.0" xml:space="preserve">~~~~~~~~</text>
+      <text class="k-water t-far" x="38.0" y="272.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-water t-far" x="152.0" y="272.0" xml:space="preserve">~~~~~</text>
+      <text class="k-water t-far" x="250.8" y="272.0" xml:space="preserve">~~~~~~~</text>
+      <text class="k-water t-far" x="395.2" y="272.0" xml:space="preserve">~~~~~~~</text>
+      <text class="k-glint t-dim" x="463.6" y="272.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="486.4" y="272.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="501.6" y="272.0" xml:space="preserve">·</text>
+      <text class="k-water t-far" x="554.8" y="272.0" xml:space="preserve">~~~~~~~~</text>
+      <text class="k-water t-far" x="706.8" y="272.0" xml:space="preserve">~~~</text>
+      <text class="k-water t-faint" x="53.2" y="289.0" xml:space="preserve">---------</text>
+      <text class="k-water t-faint" x="205.2" y="289.0" xml:space="preserve">-----------</text>
+      <text class="k-water t-faint" x="395.2" y="289.0" xml:space="preserve">--------</text>
+      <text class="k-glint t-bright" x="456.0" y="289.0" xml:space="preserve">≈≈</text>
+      <text class="k-glint t-dim" x="471.2" y="289.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="494.0" y="289.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="509.2" y="289.0" xml:space="preserve">·</text>
+      <text class="k-water t-faint" x="539.6" y="289.0" xml:space="preserve">--------</text>
+      <text class="k-water t-faint" x="706.8" y="289.0" xml:space="preserve">---</text>
+      <text class="k-water t-far" x="0.0" y="306.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-water t-far" x="174.8" y="306.0" xml:space="preserve">~~~~~~~</text>
+      <text class="k-water t-far" x="311.6" y="306.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-glint t-dim" x="463.6" y="306.0" xml:space="preserve">·</text>
+      <text class="k-glint t-bright" x="471.2" y="306.0" xml:space="preserve">≈≈≈≈≈≈</text>
+      <text class="k-water t-far" x="516.8" y="306.0" xml:space="preserve">~~</text>
+      <text class="k-water t-far" x="623.2" y="306.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-water t-faint" x="15.2" y="323.0" xml:space="preserve">---------</text>
+      <text class="k-water t-faint" x="174.8" y="323.0" xml:space="preserve">---------</text>
+      <text class="k-water t-faint" x="357.2" y="323.0" xml:space="preserve">--------</text>
+      <text class="k-glint t-dim" x="471.2" y="323.0" xml:space="preserve">·</text>
+      <text class="k-glint t-dim" x="486.4" y="323.0" xml:space="preserve">·</text>
+      <text class="k-water t-faint" x="532.0" y="323.0" xml:space="preserve">----------</text>
+      <text class="k-water t-faint" x="722.0" y="323.0" xml:space="preserve">-</text>
+      <text class="k-water t-far" x="0.0" y="340.0" xml:space="preserve">~~~~~~</text>
+      <text class="k-water t-far" x="190.0" y="340.0" xml:space="preserve">~~~~</text>
+      <text class="k-water t-far" x="319.2" y="340.0" xml:space="preserve">~~~~~~~</text>
+      <text class="k-glint t-dim" x="478.8" y="340.0" xml:space="preserve">·</text>
+      <text class="k-glint t-bright" x="494.0" y="340.0" xml:space="preserve">≈</text>
+      <text class="k-water t-far" x="501.6" y="340.0" xml:space="preserve">~~~~</text>
+      <text class="k-water t-far" x="630.8" y="340.0" xml:space="preserve">~~~~~~~</text>
+      <text class="k-water t-faint" x="30.4" y="357.0" xml:space="preserve">---------</text>
+      <text class="k-water t-faint" x="228.0" y="357.0" xml:space="preserve">------</text>
+      <text class="k-water t-faint" x="448.4" y="357.0" xml:space="preserve">-----</text>
+      <text class="k-glint t-dim" x="486.4" y="357.0" xml:space="preserve">·</text>
+      <text class="k-water t-faint" x="608.0" y="357.0" xml:space="preserve">--------</text>
+  </g>
+</svg>
